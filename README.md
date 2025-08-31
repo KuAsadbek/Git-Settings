@@ -1,6 +1,21 @@
 # Git-Settings
 
 1. Основы Git
+
+# akjwfwafa
+- срувцфв
+## kaknfaf
+--- jwndwawd
+** wlkandadlk
+
+```markdown
+
+wakdjbnwa
+dwaf
+fawf
+```
+
+```bash
 git init                     # инициализация репозитория в текущей папке
 git clone URL                # клонировать проект с GitHub
 git status                   # показать изменения
@@ -9,15 +24,16 @@ git add .                    # добавить все изменения
 git commit -m "Сообщение"    # зафиксировать изменения
 git log                      # история коммитов
 git diff                     # показать, что изменилось
+```
 
-2. Работа с удалённым репозиторием
+3. Работа с удалённым репозиторием
 git remote add origin URL     # привязать локальный репозиторий к GitHub
 git remote -v                 # проверить связь с удалённым репо
 git push -u origin main       # отправить локальные изменения на GitHub
 git pull origin main          # подтянуть изменения с GitHub
 git fetch                     # загрузить новые данные (без слияния)
 
-3. Ветки (branch)
+4. Ветки (branch)
 git branch                    # показать все ветки
 git branch NAME               # создать ветку
 git checkout NAME             # переключиться на ветку
@@ -26,7 +42,7 @@ git merge NAME                # объединить ветку NAME в теку
 git branch -d NAME            # удалить ветку (если уже слита)
 git branch -D NAME            # удалить ветку принудительно
 
-4. Командная работа
+5. Командная работа
 
 Лучший рабочий процесс (Git Flow или Feature Branch):
 

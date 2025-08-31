@@ -83,32 +83,3 @@ git tag v1.0                   # создать тег (например, рел
 git show HASH                  # показать изменения конкретного коммита
 git blame FILE                 # кто и когда менял строки в файле
 ```
-
-# 7. Базовый README.md пример
-# Git Шпаргалка
-
-## Основные команды
-\`\`\`bash
-git init
-git add .
-git commit -m "first commit"
-git push origin main
-\`\`\`
-
-## Ветки
-\`\`\`bash
-git checkout -b feature-name
-git push origin feature-name
-git merge feature-name
-\`\`\`
-
-## Откаты
-\`\`\`bash
-git reset --hard <hash>
-git revert <hash>
-\`\`\`
-
-## Командная работа
-1. Создавай ветки для задач (`feature/*`)
-2. Делаем Pull Request (PR) в `dev` или `main`
-3. После слияния — удаляем ветки
